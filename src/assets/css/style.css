@@ -1,6 +1,37 @@
 .button {
   color: red; }
 
-button {
-  color: red;
-  color: teal; }
+@font-face {
+  font-family: 'RobotoLight';
+  src: url("../fonts/RobotoLight.eot");
+  src: url("../fonts/RobotoLight.eot") format("embedded-opentype"), url("../fonts/RobotoLight.woff2") format("woff2"), url("../fonts/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight.ttf") format("truetype"), url("../fonts/RobotoLight.svg#RobotoLight") format("svg"); }
+
+@font-face {
+  font-family: 'RobotoLightItalic';
+  src: url("../fonts/RobotoLightItalic.eot");
+  src: url("../fonts/RobotoLightItalic.eot") format("embedded-opentype"), url("../fonts/RobotoLightItalic.woff2") format("woff2"), url("../fonts/RobotoLightItalic.woff") format("woff"), url("../fonts/RobotoLightItalic.ttf") format("truetype"), url("../fonts/RobotoLightItalic.svg#RobotoLightItalic") format("svg"); }
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg"); }
+
+@font-face {
+  font-family: 'RobotoItalic';
+  src: url("../fonts/RobotoItalic.eot");
+  src: url("../fonts/RobotoItalic.eot") format("embedded-opentype"), url("../fonts/RobotoItalic.woff2") format("woff2"), url("../fonts/RobotoItalic.woff") format("woff"), url("../fonts/RobotoItalic.ttf") format("truetype"), url("../fonts/RobotoItalic.svg#RobotoItalic") format("svg"); }
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url("../fonts/RobotoMedium.eot");
+  src: url("../fonts/RobotoMedium.eot") format("embedded-opentype"), url("../fonts/RobotoMedium.woff2") format("woff2"), url("../fonts/RobotoMedium.woff") format("woff"), url("../fonts/RobotoMedium.ttf") format("truetype"), url("../fonts/RobotoMedium.svg#RobotoMedium") format("svg"); }
+
+body {
+  font-family: 'RobotoLight'; }
+
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  ul a, ol a {
+    text-decoration: none; }
